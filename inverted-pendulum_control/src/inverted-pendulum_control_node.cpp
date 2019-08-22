@@ -16,7 +16,7 @@ int main( int argc, char** argv )
     NodeHandlePtr nhMain = 
         ros::NodeHandlePtr( new ros::NodeHandle( "~" ) );
 
-    Rate loop_rate = 1000;
+    Rate loop_rate = 1;
 
     setParameters( nhMain );
     
